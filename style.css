@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #0b3d91;
+    color: white;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 100px;
+    text-align: center;
+    background: linear-gradient(to right, #0b3d91, #092a5d);
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: white;
+    color: #0b3d91;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features, .services-list, .pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card, .service-box, .price-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    text-align: center;
+}
+
+.price-card.popular {
+    border: 2px solid #0b3d91;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0b3d91;
+    color: white;
+    margin-top: 40px;
+}
